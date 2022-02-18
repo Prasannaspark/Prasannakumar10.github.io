@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#a").css("color", "lightblue").slideUp(2000).slideDown(2000);
+  });
+});
+</script>
+</head>
+
+    
+  
+  
+  </head>
+  
+  <body  bgcolor = lightgreen>
+      
+  <h1>REGISTRY DETAILS</h1>
+ 
+<div id = "a">  
+     <form action="./insertSDetails.jsp">
+      
+    OLD owner name: <input type="text" name="old owner name" /><br><br>
+ 
+   NEW NAME : <input type="text" name="name" /><br><br>
+           
+    land size: <input type="text" name="size" /><br><br>
+ 
+    place: <input type="text" name="place" /><br><br>
+         
+   district : <input type="text" name="district" /><br><br>
+   
+    <input type="submit" value="Insert Details" />
+    
+    </form>
+ </div>
+<br><br>
+
+
+<button>slide show</button>
+
+</body>
+</html>
+
